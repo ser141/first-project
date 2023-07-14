@@ -1,0 +1,17 @@
+.intro__button {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: rgba(164, 252, 251, .7) url(../../../images/ios-lock.svg);
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+    background-position: center;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform ease-in-out .7s;
+}
+
+.intro__button:hover {
+    transform: scale(1.125);
+}

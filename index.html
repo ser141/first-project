@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="intro" id="intro">
+        <div class="intro__overlay">
+            <button type="button" class="intro__button"></button>
+            <div class="popup">
+                <h2 class="popup__login">Login</h2>
+                <form name="popupForm" class="form form__active">
+                    <input name="formLogin" type="text" class="form__item form__item_login" placeholder="Enter your login...">
+                    <button type="submit" class="form__button" name="formButton"></button>
+                </form>
+                <div class="password">
+                    <ul class="dots">
+                        <li><div class="dots__item dots__item_active"></div></li>
+                        <li><div class="dots__item"></div></li>
+                        <li><div class="dots__item"></div></li>
+                        <li><div class="dots__item"></div></li>
+                    </ul>
+                    <ul class="password__container">
+                        <li><div class="password__item">1</div></li>
+                        <li><div class="password__item">2</div></li>
+                        <li><div class="password__item">3</div></li>
+                        <li><div class="password__item">4</div></li>
+                        <li><div class="password__item">5</div></li>
+                        <li><div class="password__item">6</div></li>
+                        <li><div class="password__item">7</div></li>
+                        <li><div class="password__item">8</div></li>
+                        <li><div class="password__item">9</div></li>
+                        <li><div class="password__item">0</div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/three.min.js" defer></script>
+    <script src="scripts/vanta.rings.min.js" defer></script>
+    <script src="scripts/app.js" defer></script>
+</body>
+</html>

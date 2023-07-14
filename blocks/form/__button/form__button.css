@@ -1,0 +1,18 @@
+.form__button {
+    width: 140px;
+    height: 140px;
+    padding: 0;
+    border-radius: 50%;
+    background: rgba(164, 252, 251, .3) url(../../../images/tick.svg);
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+    background-position: center;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: ease-in-out .4s;
+}
+
+.form__button:hover {
+    background-color: rgba(164, 252, 251, .6);
+}
